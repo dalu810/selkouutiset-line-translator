@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Circle background -->
+  <circle cx="64" cy="64" r="56" fill="#1a73e8"/>
+  
+  <!-- Top line (above FI) -->
+  <line x1="44" y1="28" x2="84" y2="28" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+  
+  <!-- "FI" text -->
+  <text x="64" y="50" text-anchor="middle" fill="white" font-size="20" font-family="Calibri">FI</text>
+  
+  <!-- Middle line (between FI and EN, closer to EN) -->
+  <line x1="44" y1="60" x2="84" y2="60" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+  
+  <!-- "EN" text -->
+  <text x="64" y="85" text-anchor="middle" fill="white" font-size="20" font-family="Calibri">EN</text>
+  
+  <!-- Bottom line (below EN) -->
+  <line x1="44" y1="95" x2="84" y2="95" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+</svg>

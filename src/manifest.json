@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Selkouutiset Line Translator",
+  "version": "0.1.0",
+  "description": "Translate Yle Selkouutiset by line and insert English translations below.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://yle.fi/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  }
+}
