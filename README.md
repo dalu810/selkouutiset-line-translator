@@ -15,18 +15,18 @@ A Chrome extension that translates Finnish Selkouutiset (easy Finnish news) to E
 
 ### Before Translation
 
-![Before Translation](images/screenshot-before.jpg)
+![Before Translation](images/Screenshot-before.jpg)
 _Original Selkouutiset article in Finnish_
 
 ### After Translation
 
-![After Translation](images/screenshot-after.jpg)
+![After Translation](images/Screenshot-after.jpg)
 _English translations inserted below each paragraph_
 
 ## Installation
 
 **Clone this repository**
-git clone https://github.com/YOUR_USERNAME/selkouutiset-translator.git
+git clone https://github.com/dalu810/selkouutiset-line-translator.git
 
 ## Get a Google Translate API key
 
@@ -36,13 +36,11 @@ git clone https://github.com/YOUR_USERNAME/selkouutiset-translator.git
 - Create credentials (API Key)
 - Configure the extension
 
-# Copy the example config
+## Copy the example config
 
 cp config.example.js config.js
-
-# Edit config.js and add your API key
-
-# Replace YOUR_API_KEY_HERE with your actual API key
+Edit config.js and add your API key
+Replace YOUR_API_KEY_HERE with your actual API key
 
 ## Load the extension in Chrome
 
@@ -60,6 +58,7 @@ cp config.example.js config.js
 
 ## File Structure
 
+```
 selkouutiset-line-translator/
 ├── images/
 │ ├── icon-16.png
@@ -75,6 +74,7 @@ selkouutiset-line-translator/
 ├── config.js # Your API key (not committed)
 ├── config.example.js # API key template
 └── README.md
+```
 
 ## Privacy
 
