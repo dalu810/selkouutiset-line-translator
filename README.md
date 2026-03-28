@@ -16,11 +16,13 @@ A Chrome extension that translates Finnish Selkouutiset (easy Finnish news) to E
 ### Before Translation
 
 ![Before Translation](images/Screenshot-before.jpg)
+
 _Original Selkouutiset article in Finnish_
 
 ### After Translation
 
 ![After Translation](images/Screenshot-after.jpg)
+
 _English translations inserted below each paragraph_
 
 ## Installation

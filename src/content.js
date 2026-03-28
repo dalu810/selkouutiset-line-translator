@@ -1,5 +1,4 @@
-const API_KEY = API_KEY;
-
+// ===== TRANSLATION FUNCTION =====
 async function translateText(text) {
   const res = await fetch(
     `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`,
@@ -18,7 +17,6 @@ async function translateText(text) {
   );
 
   const data = await res.json();
-
   return data.data.translations[0].translatedText;
 }
 
