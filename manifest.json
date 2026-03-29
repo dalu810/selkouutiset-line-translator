@@ -3,8 +3,14 @@
   "name": "Selkouutiset Line Translator",
   "version": "0.1.0",
   "description": "Translate Yle Selkouutiset by line and insert English translations below.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["https://yle.fi/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["config.js", "src/content.js"]
+    }
+  ],
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {
